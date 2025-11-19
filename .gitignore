@@ -15,5 +15,7 @@ wheels/
 # dataset
 flower_photos/
 dataset/
+dataset-*/
 flower_photos.tgz
 *.pt
+*.pth
