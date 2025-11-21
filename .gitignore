@@ -19,3 +19,4 @@ dataset-*/
 flower_photos.tgz
 *.pt
 *.pth
+.cache/
