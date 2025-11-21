@@ -5,11 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "ultralytics",
-    "torch",
-    "torchvision",
-    "pillow",
-    "numpy",
+    "ultralytics>=8.3.228",
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+    "pillow>=12.0.0",
+    "numpy>=2.3.5",
     # Grounding-DINOはgitリポジトリから直接インストール
     # または手動でクローンしてから uv sync を実行
+    "ipykernel>=7.1.0",
+    "tqdm>=4.67.1",
+    "ipywidgets>=8.1.8",
 ]

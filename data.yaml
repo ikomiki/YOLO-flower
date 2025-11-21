@@ -1,4 +1,4 @@
-path: /Users/ikomiki/workspace-outer/YOLO-flower/dataset
+path: ./dataset
 train: train
 val: val
 nc: 5
