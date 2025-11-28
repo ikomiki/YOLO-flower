@@ -11,8 +11,10 @@ dependencies = [
     "torch==2.2.2",
     "torchvision==0.17.2",
     "ultralytics>=8.0.0",
-    "groundingdino @ git+https://github.com/IDEA-Research/GroundingDINO.git",
     "ipywidgets>=8.1.8",
+    "certifi>=2024.0.0",
+    "setuptools>=80.9.0",
+    "tqdm>=4.67.1",
 ]
 
 [tool.uv]
